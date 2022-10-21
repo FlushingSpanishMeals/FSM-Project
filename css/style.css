@@ -72,13 +72,12 @@ body{
 
 
 
-
 .hero{
-    background-image: url('/images/image-p-03.jpg');
+    background-image: url('images/image-p-03.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    height:100vh;
+    height:70vh;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -117,7 +116,7 @@ body{
 
 .content p{
     color: #555;
-    line-height: 30%;
+    line-height: 100%;
     letter-spacing: 1.2px;
 
 }
