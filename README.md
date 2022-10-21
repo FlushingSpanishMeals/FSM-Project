@@ -2,7 +2,7 @@
 
 # Spanish meals website
 
-# Group members: Sung Hwan Ahn, Will Canner, Vianey Tlapechco
+# Group members: Sung Ahn, Will Canner, Vianey Tlapechco
 
 # 1. Write a white paper outlining the following concepts and answer the following questions:
 
