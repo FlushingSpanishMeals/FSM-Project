@@ -1,3 +1,5 @@
+
+
 const panels = document.querySelectorAll('.panel')
 
 panels.forEach(panel => {
@@ -7,7 +9,7 @@ panels.forEach(panel => {
     })
 })
 
-function removeActiveClasses(){
+function removeActiveClasses() {
     panels.forEach(panel => {
         panel.classList.remove('active')
     })
@@ -16,10 +18,10 @@ function removeActiveClasses(){
 const nav = document.querySelector('.nav')
 window.addEventListener('scroll', fixNav)
 
-function fixNav(){
-    if(window.scrollY > nav.offsetHeight +150){
+function fixNav() {
+    if (window.scrollY > nav.offsetHeight + 150) {
         nav.classList.add('active')
-    } else{
+    } else {
         nav.classList.remove('active')
     }
 }

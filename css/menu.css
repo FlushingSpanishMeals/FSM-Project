@@ -70,7 +70,7 @@ ul.empUL {
     left: 0;
 }
 
-.foodmenu.box-container .box .content {
+.foodmenu .box-container .box .content {
     text-align: center;
     background-color: #fff;
     padding: 2rem;
@@ -90,9 +90,94 @@ ul.empUL {
 
 .foodmenu .box-container .box:hover .image {
     top: 0;
+    transition: 0.6s;
+
 }
 
 .foodmenu .box-container .box:hover .content {
     transform: translateY(100%);
     padding-top: 200px;
+}
+
+.footer .top {
+    background-color: white;
+    padding: 10rem 9%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.footer .top .links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.footer .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    background-color: white;
+}
+
+.footer .top .content p {
+    color: black;
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.footer .top .link h4 {
+    font-size: large;
+    margin-bottom: 1.5rem;
+}
+
+.footer .top .link a {
+    display: inline-block;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.footer .top .link span {
+    color: black;
+}
+
+.footer .top .link a {
+    display: block;
+}
+
+.footer .top .link div {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer .top .link div img {
+    margin-right: 1rem;
+}
+
+@media (max-width: 996px) {
+    .footer .top {
+        padding: 5rem 9%;
+        grid-template-columns: 1fr;
+    }
+
+    .footer .top .content {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .top .links {
+        grid-template-columns: 1fr;
+        gap: 3rem 0;
+    }
+
+    .footer .top .link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .bottom {
+        padding: 1.5rem;
+    }
 }
