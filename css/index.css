@@ -1,104 +1,176 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-.rcorners{
+.rcorners {
     text-align: center;
-    /* border-radius: 25px;
-    border:2px solid white;
-    padding: 20px;
-    width: 1250px;
-    height: 2vh; */
-    position:relative;
+    position: relative;
 }
-#rcorncers{
+
+#rcorncers {
     border-radius: 25px;
-    border:2px solid white;
+    border: 2px solid white;
     padding: 20px;
     width: 1250px;
     height: 2vh;
 }
 
-section{
+section {
     background-image: url("background.png");
     font-family: 'Times New Roman', Times, serif;
-    margin:0;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 60vh;
     overflow: hidden;
 }
-.container-box{
+
+.container-box {
     display: flex;
-    width:  90vw;
+    width: 90vw;
 }
-.panel{
-    background-size: auto 100%; 
+
+.panel {
+    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
     border-radius: 50px;
-    color:#fff;
     cursor: pointer;
-    flex:0.5;
-    margin: 10px; 
+    flex: 0.5;
+    margin: 10px;
     position: relative;
-    transition: flex 0.7s ease-in;
+    transition: flex 0.9s ease-in;
 
 }
-.panel h3{
-    font-size: 24px;
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
-    opacity: 0;
-    margin: 0;
+
+.services {
+    color: #fff;
+    transform: rotate(-90deg);
+    font-size: 40px;
+    letter-spacing: 2px;
+    transition: .5 ease;
+    max-width: 100%;
+    margin-bottom: 120%;
 }
-.panel.active {
+
+.panel:hover .services {
+    transform: rotate(0deg);
+    margin-bottom: 3%;
+    margin-left: 20%;
+}
+
+.panel:hover {
     opacity: 1;
     flex: 5;
 }
-.panel.active h3{
-    opacity: 1;
-    transition: opacity 0.3s ease-in 0.4s;
+
+.hoverdiv {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 40px;
+    box-sizing: border-box;
+    font-size: large;
 }
 
-h1{
+h1 {
     text-align: left;
     color: whitesmoke;
 }
 
-/* #rcorners1{
-    border-radius: 25px;
-    border:2px solid white;
-    padding: 20px;
-    width: 700px;
-    height: 100;
-}
-#rcorners2{
-    border-radius: 25px;
-    border:2px solid white;
-    padding: 20px;
-    width: 700px;
-    height: 200;
-}
-#rcorners3{
-    border-radius: 25px;
-    border:2px solid white;
-    padding: 20px;
-    width: 700px;
-    height: 200;
-} */
-p, h3{
-    color:whitesmoke;
-    text-align: center;
 
-}
-@media(max-width: 480px){
-    .container{
+@media(max-width: 480px) {
+    .container {
         width: 100vw;
     }
+
     .panel:nth-of-type(1),
-    .panel:nth-of-type(2){
-        display:none;
+    .panel:nth-of-type(2) {
+        display: none;
+    }
+}
+
+.footer .top {
+    background-color: var(--footer-yellow);
+    padding: 10rem 9%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.footer .top .links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.footer .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    background-color: var(--deep-yellow);
+}
+
+.footer .top .content p {
+    color: var(--grey);
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.footer .top .link h4 {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer .top .link a {
+    display: inline-block;
+    color: var(--grey);
+    margin-bottom: 1rem;
+}
+
+.footer .top .link span {
+    color: var(--grey);
+}
+
+.footer .top .link a {
+    display: block;
+}
+
+.footer .top .link div {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer .top .link div img {
+    margin-right: 1rem;
+}
+
+@media (max-width: 996px) {
+    .footer .top {
+        padding: 5rem 9%;
+        grid-template-columns: 1fr;
+    }
+
+    .footer .top .content {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .top .links {
+        grid-template-columns: 1fr;
+        gap: 3rem 0;
+    }
+
+    .footer .top .link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .bottom {
+        padding: 1.5rem;
     }
 }
