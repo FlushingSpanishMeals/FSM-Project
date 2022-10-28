@@ -1,24 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 /* Main CSS NAV */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     color: #222;
     padding-bottom: 50px;
     background-color: #ecf0fe;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.nav{
-    position:fixed;
+.nav {
+    position: fixed;
     background-color: #222;
     top: 0;
     left: 0;
@@ -27,7 +29,7 @@ body{
     z-index: 1;
 }
 
-.nav .container{
+.nav .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +38,7 @@ body{
 }
 
 
-.nav ul{
+.nav ul {
     display: flex;
     list-style-type: none;
     align-items: center;
@@ -44,39 +46,40 @@ body{
 }
 
 
-.nav a{
+.nav a {
     color: #fff;
     text-decoration: none;
     padding: 7px 15px;
     transition: all 0.3s ease-in-out;
 }
 
-.nav.active{
+.nav.active {
     background-color: #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-.nav.active a{
+.nav.active a {
     color: #000;
 }
 
-.nav.active .container{
+.nav.active .container {
     padding: 10px 0;
 }
 
-.nav a.current, 
+.nav a.current,
 .nav a:hover {
     color: #c02b76;
     font-weight: bold;
 
 }
+
 /* Hero CSS */
-.hero{
+.hero {
     background-image: url('images/image-p-03.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    height:60vh;
+    height: 60vh;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -89,23 +92,23 @@ body{
 
 
 
-.hero::before{
+.hero::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height:100%;
-    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 46px;
-    margin:-20px 0 20px;
+    margin: -20px 0 20px;
 }
 
-.hero p{
+.hero p {
     font-size: 20px;
     letter-spacing: 1px;
 }
@@ -114,25 +117,26 @@ body{
 .content h2,
 .content h3 {
     font-size: 150%;
-    margin:10px 0;
+    margin: 10px 0;
 }
 
-.content p{
+.content p {
     color: #555;
     line-height: 100%;
     letter-spacing: 1.2px;
 
 }
 
-.services{
-    max-width:1200px;
-    margin-top:100px;
+.services {
+    max-width: 1200px;
+    margin-top: 100px;
 }
 
 /* Footer CSS */
-.footer{
+.footer {
     bottom: 0px;
 }
+
 .footer .top {
     background-color: white;
     padding: 10rem 9%;
@@ -228,9 +232,9 @@ body{
     }
 }
 
-#rcorners1{
+#rcorners1 {
     border-radius: 25px;
-    border:2px solid lightblue;
+    border: 2px solid lightblue;
     padding: 20px;
     width: 700px;
     height: 200;
