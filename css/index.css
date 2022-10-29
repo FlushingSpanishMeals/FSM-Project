@@ -4,10 +4,12 @@ h1 {
 }
 
 .carousel{
+    margin: 0 auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) ;
     height: 530px;
     width: 500px;
     overflow: hidden;
+    
 }
 .image-container{
     display: flex;
@@ -41,3 +43,4 @@ h1 {
 .btn:focus {
     outline: none;
 }
+
