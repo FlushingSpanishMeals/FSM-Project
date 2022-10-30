@@ -10,7 +10,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: #222;
     padding-bottom: 50px;
-
+    background-color: #ecf0fe;
 }
 .container{
     max-width: 1200px;
