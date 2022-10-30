@@ -99,7 +99,7 @@ section {
 
 }
 
-.services {
+.services-title {
     color: #fff;
     transform: rotate(-90deg);
     font-size: 40px;
@@ -109,7 +109,7 @@ section {
     margin-bottom: 120%;
 }
 
-.panel:hover .services {
+.panel:hover .services-title {
     transform: rotate(0deg);
     margin-bottom: 3%;
     margin-left: 20%;
