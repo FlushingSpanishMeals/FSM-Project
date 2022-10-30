@@ -88,13 +88,17 @@ section {
   background-color: #fff;
   border-radius: 20px;
 
+  transition: 0.3s;
+  margin: 10px 0;
+  align-content: center;
+  justify-content: center;
 }
 
 .container-services {
   padding: 20px;
   text-align: center;
-  border-radius: 20px;
-  margin-bottom: 20px;
+  background-color: #474e5d;
+  color: white;
 }
 
 .title {
