@@ -130,7 +130,9 @@ body{
 }
 
 /* Footer CSS */
-
+.footer{
+    bottom: 0px;
+}
 .footer .top {
     background-color: white;
     padding: 10rem 9%;
@@ -150,11 +152,12 @@ body{
     justify-content: center;
     padding: 1.5rem 0;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 .footer .top .content p {
     color: black;
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 90%;
 }
 
