@@ -54,9 +54,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_about_page
 
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    
+    border-radius: 20px;
     transition: 0.3s;
     margin:10px 0;
+    background-color: #fff;
     align-content: center;
     justify-content: center;
   }
@@ -76,13 +77,29 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_about_page
     color: white;
   }
   
-  .container {
-    padding: 2px 16px;
+  section {
+    padding: 40px 16px;
   }
 
+.about-text{
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+
+}
+
+.container-services{
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
   
   .title {
     color: grey;
+  
   } 
   
   .button {
