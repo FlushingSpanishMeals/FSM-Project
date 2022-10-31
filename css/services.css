@@ -2,7 +2,7 @@
 
 p {
     color: white;
-    text-shadow: 2px 2px 8px whitesmoke;
+    text-shadow: 2px 2px 8px black;
 }
 
 h1 {
@@ -56,11 +56,11 @@ h1 {
     padding: 8px;
     width: 80%;
     max-width: 200px;
-    background: #fff;
+    background: black;
     /* fallback color for old browsers */
     background: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
-    color: #fff;
+    color: black;
     text-align: center;
     text-decoration: none;
     letter-spacing: 1px;
