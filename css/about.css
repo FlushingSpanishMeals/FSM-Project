@@ -52,9 +52,10 @@
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
+  border-radius: 20px;
   transition: 0.3s;
   margin: 10px 0;
+  background-color: #fff;
   align-content: center;
   justify-content: center;
 }
@@ -71,17 +72,34 @@
 .about-section {
   padding: 50px;
   text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+section {
+  padding: 40px 16px;
+}
+
+.about-text {
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+
+}
+
+.container-services {
+  padding: 20px;
+  text-align: center;
   border-radius: 20px;
   margin-bottom: 20px;
 }
 
-.container {
-  padding: 2px 16px;
-}
-
-
 .title {
   color: grey;
+
 }
 
 .button {
