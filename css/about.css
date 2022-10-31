@@ -72,6 +72,27 @@
 .about-section {
   padding: 50px;
   text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+section {
+  padding: 40px 16px;
+}
+
+.about-text {
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+
+}
+
+.container-services {
+  padding: 20px;
+  text-align: center;
   border-radius: 20px;
   margin-bottom: 20px;
 }
