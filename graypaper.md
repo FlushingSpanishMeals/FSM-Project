@@ -30,4 +30,9 @@
 20. Some of our options links to the menu
 
 ## Features on About page:
-21.aa 
+21. About section has a mission statement about Flushing Spanish meals
+22. About Section has boxes that tell us about Simple meal, events and catering
+23. Learn more button in the section for each
+
+## Features on Contact Us page:
+24. Enter
