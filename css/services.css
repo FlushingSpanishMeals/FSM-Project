@@ -107,6 +107,7 @@ section {
     transition: .5 ease;
     max-width: 100%;
     margin-bottom: 120%;
+
 }
 
 .panel:hover .services-title {
@@ -127,7 +128,7 @@ section {
     width: 100%;
     height: 100%;
     color: black;
-    padding: 24px;
+    padding: 40px;
     box-sizing: border-box;
     font-size: large;
 }
