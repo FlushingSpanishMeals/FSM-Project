@@ -122,3 +122,9 @@
       display: block;
     }
   }
+  a {
+    color: white;
+  }
+  a:visited{
+    color: gray;
+  }
