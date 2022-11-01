@@ -57,6 +57,11 @@ h2 {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) ;
 }
 
+.box-container{
+    text-align: center;
+}
+
+
 #imag {
     max-width: 90%;
     max-height: 90%;
