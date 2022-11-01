@@ -1,5 +1,6 @@
 #Features:
 
+
 ## Features on all pages:
 1. Nav bar that leads to each of the respective webpages
 2. When you hover over each property of the Navbar the text will glow to show you may click on it
@@ -12,7 +13,7 @@
 9. Each webpage contains a hero heading to detail information that will be listed in each section
 
 ## Features on FSM landing page: 
-10. Image carousel that transitions from 4 different images on a timer
+10. Image carousel that transitions from different images on a timer
 11. Carousel has 2 buttons to quickly transfer slides
 12. Box containers that container information on Events, catering and Type of foods
 13. Images and boxes of text resize based on the size of web browser window
@@ -41,3 +42,20 @@
 28. Must have a valid email address entered to go through with the form
 29. Can select a service that you would like to inquire about through the dropdown menu
 30. Submit button on the bottom to send the form to a mailto address
+
+
+
+##JS:
+31. Each JS file has a sticky nav script that has an eventlistener that calls a function fixNav to adjust the navigate bar everytime it become sticky
+32. Index JS has an variable imgs left and right button that will change the position of the photo on an a set interval or will be able to interject through an eventlistener on either the left or right button that sets the images forward or back, once it reaches a certain point it will reset the images to the initial position
+
+#CSS:
+33. Inside of index.css is a image container that eases in and out and transition between the frames through the carousel
+34. added box shadowing on the index images and boxes to added a bit of depth to the website
+
+
+
+
+
+
+
