@@ -1,4 +1,4 @@
-#Features:
+# Features:
 
 
 ## Features on all pages:
@@ -45,11 +45,11 @@
 
 
 
-##JS:
+## JS:
 31. Each JS file has a sticky nav script that has an eventlistener that calls a function fixNav to adjust the navigate bar everytime it become sticky
 32. Index JS has an variable imgs left and right button that will change the position of the photo on an a set interval or will be able to interject through an eventlistener on either the left or right button that sets the images forward or back, once it reaches a certain point it will reset the images to the initial position
 
-#CSS:
+## CSS:
 33. Inside of index.css is a image container that eases in and out and transition between the frames through the carousel
 34. added box shadowing on the index images and boxes to added a bit of depth to the website
 
