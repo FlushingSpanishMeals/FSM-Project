@@ -9,30 +9,35 @@
 6. footer has Instagram link that leads to Flushing Spanish Meals Instagram page
 7. footer resizes based on the webpage size
 8. footer only shows relevant contact information if it is minimized
+9. Each webpage contains a hero heading to detail information that will be listed in each section
 
-## Features on FSM landing page:
-8.  Image carousel that transitions from 4 different images on a timer
-9. Carousel has 2 buttons to quickly transfer slides
-10. Box containers that container information on Events, catering and Type of foods
-11. Images and boxes of text resize based on the size of web browser window
+## Features on FSM landing page: 
+10. Image carousel that transitions from 4 different images on a timer
+11. Carousel has 2 buttons to quickly transfer slides
+12. Box containers that container information on Events, catering and Type of foods
+13. Images and boxes of text resize based on the size of web browser window
 
 ## Features on Menu page:
-12.  Menu is shown with a list of menu items and options that come with that item
-13. when you hover the item you can view what that item looks like 
-14. the menu item that you can view will slide into frame from the top in an animation
-15. The menu items will resize based on the size of the browser window
-16. The bottom of the webpage give direct access to the menu if you would like to look at a more formal menu from the business
+14. Menu is shown with a list of menu items and options that come with that item
+15. when you hover the item you can view what that item looks like 
+16. the menu item that you can view will slide into frame from the top in an animation
+17. The menu items will resize based on the size of the browser window
+18. The bottom of the webpage give direct access to the menu if you would like to look at a more formal menu from the business
 
 ## Features on Services page:
-17. Card banners that give information on each of the simple meal, events, and catering
-18. When you hover over the banner the text expands and slides to reveal the whole image
-19. text is contained on top of the image
-20. Some of our options links to the menu
+19. Card banners that give information on each of the simple meal, events, and catering
+20. When you hover over the banner the text expands and slides to reveal the whole image
+21. text is contained on top of the image
+22. Some of our options links to the menu
 
 ## Features on About page:
-21. About section has a mission statement about Flushing Spanish meals
-22. About Section has boxes that tell us about Simple meal, events and catering
-23. Learn more button in the section for each
+23. About section has a mission statement about Flushing Spanish meals
+24. About Section has boxes that tell us about Simple meal, events and catering
+25. Learn more button in the section for each
 
 ## Features on Contact Us page:
-24. Enter
+26. You can enter your name, email and inquiry on a contact form section
+27. Field entry is required for each section
+28. Must have a valid email address entered to go through with the form
+29. Can select a service that you would like to inquire about through the dropdown menu
+30. Submit button on the bottom to send the form to a mailto address
