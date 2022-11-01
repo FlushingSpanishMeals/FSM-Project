@@ -26,7 +26,7 @@ function run() {
 }
 
 function changeImage() {
-    if(idx > img.length - 1) {
+    if(idx > img.length - 5) {
         idx = 0
     } else if(idx < 0) {
         idx = img.length - 1
