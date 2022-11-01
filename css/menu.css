@@ -36,18 +36,6 @@ section {
     color: black;
 }
 
-/* Removed dots */
-/* .menu-list {
-    list-style-type: none;
-    color: white;
-    text-shadow: 2px 2px 8px black;
-} */
-
-/* ul.empUL {
-    list-style-type: disc;
-    display: inline-block;
-    text-align: left;
-} */
 
 .foodmenu .box-container {
     display: flex;
@@ -78,18 +66,6 @@ section {
     left: 0;
 }
 
-/* .content .text {
-    height: 0;
-    opacity: 1;
-    transition: 0s;
-    transition-duration: 0.4s;
-}
-
-.content:hover .text {
-    opacity: 1;
-    transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-} */
 
 .foodmenu .box-container .box .content {
     text-align: center;

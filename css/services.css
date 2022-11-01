@@ -143,12 +143,3 @@ h1 {
     text-align: left;
     color: whitesmoke;
 }
-
-background-image {
-    transition: 0.3s;
-    filter: blur(5px);
-}
-
-background-image:hover {
-    filter: blur(0);
-}
