@@ -37,15 +37,17 @@ section {
 }
 
 /* Removed dots */
-.menu-list{ 
+/* .menu-list {
     list-style-type: none;
-}
+    color: white;
+    text-shadow: 2px 2px 8px black;
+} */
 
-ul.empUL {
+/* ul.empUL {
     list-style-type: disc;
     display: inline-block;
     text-align: left;
-}
+} */
 
 .foodmenu .box-container {
     display: flex;
@@ -62,7 +64,7 @@ ul.empUL {
     cursor: pointer;
     border-radius: .5rem;
     height: 40vh;
-    width: 30vw;
+    width: 20vw;
 
 }
 
@@ -91,13 +93,14 @@ ul.empUL {
 
 .foodmenu .box-container .box .content {
     text-align: center;
-    background-color: #fff;
+    /* background-color: #fff; */
     padding: 2rem;
 }
 
 .foodmenu .box-container .box .content h3 {
     font-weight: 600;
-    color: #1e2331;
+    color: white;
+    text-shadow: 2px 2px 8px black;
     margin-bottom: 17px;
     text-transform: capitalize;
     position: relative;
@@ -107,8 +110,9 @@ ul.empUL {
 
 .foodmenu .box-container .box .content p {
     font-size: small;
-    color: black;
-    padding: 1rem 0;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    padding: 10px;
     text-align: center;
     position: relative;
 }
