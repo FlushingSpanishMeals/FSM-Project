@@ -98,4 +98,7 @@ t. a link to your github where each of the HTML, CSS, and JS files are
 
 u. a video of you showing your website in action and explaining the highlights of your code. You should mention two or three issues that you had trouble with and how you figured them out.
 
+Video: https://youtu.be/X7jMcPCZbk0
+
+
 11. You may work in groups of up to five people.
