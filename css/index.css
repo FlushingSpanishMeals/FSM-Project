@@ -85,6 +85,39 @@ p{
     max-height: auto;
     border-radius: 100px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3) ;
+    filter: blur(5px);
+}
+
+#container-img:hover, .text {
+    transition: 2s ease;
+    filter: blur(0px);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.text {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  position: relative;
+  top: 20%;
+  left: 10%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  filter: blur(0px);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
 }
 
 

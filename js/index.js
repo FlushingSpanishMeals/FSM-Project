@@ -51,4 +51,6 @@ leftBtn.addEventListener('click', () => {
     resetInterval()
 })
 
+const loadText = document.querySelector('.')
+
 
