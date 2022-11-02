@@ -10,7 +10,8 @@
 6. footer has Instagram link that leads to Flushing Spanish Meals Instagram page
 7. footer resizes based on the webpage size
 8. footer only shows relevant contact information if it is minimized
-9. Each webpage contains a hero heading to detail information that will be listed in each section
+9. footer was made relative so it can stay at the bottom of the page with no gap
+10. Each webpage contains a hero heading to detail information that will be listed in each section
 
 ## Features on FSM landing page: 
 10. Image carousel that transitions from different images on a timer
@@ -20,8 +21,8 @@
 
 ## Features on Menu page:
 14. Menu is shown with a list of menu items and options that come with that item
-15. when you hover the item you can view what that item looks like 
-16. the menu item that you can view will slide into frame from the top in an animation
+15. when you hover the item you can view the prices and how they can be bought 
+16. the menu items detailes will slide up when hovered over and stop at the center of the menu item box
 17. The menu items will resize based on the size of the browser window
 18. The bottom of the webpage give direct access to the menu if you would like to look at a more formal menu from the business
 
@@ -30,6 +31,8 @@
 20. When you hover over the banner the text expands and slides to reveal the whole image
 21. text is contained on top of the image
 22. Some of our options links to the menu
+23. Aside from the cards expanding, we also made the text as well as the heading rotate at 90 degrees so the text takes up the panel space as it opens
+24. To make sure the text stands out from the background image text shadow was use to create some contrast and allow the letters to stand out
 
 ## Features on About page:
 23. About section has a mission statement about Flushing Spanish meals
@@ -42,6 +45,7 @@
 28. Must have a valid email address entered to go through with the form
 29. Can select a service that you would like to inquire about through the dropdown menu
 30. Submit button on the bottom to send the form to a mailto address
+31. Added a table which has the project creator names 
 
 
 
